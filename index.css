@@ -40,6 +40,7 @@ article:last-of-type {
 }
 
 
+
 p {
 	color: #666666;
     font-family: 'Italiana', serif;
@@ -144,6 +145,20 @@ img {
     width: 100%;
 }
 @media (min-width:800px) {
+  nav ul {
+       display: flex;
+   }
+
+   nav ul li {
+       border-top: none;
+   }
+
+
+  .menu-trigger {
+    display: none;
+}
+
+
 
 	grid-template-areas:
 			"a b b "
@@ -195,6 +210,23 @@ img {
 					 .first {
 							 margin-top: 0;
 					 }
+
+
+           /* When greater than 800px wide */
+@media (min-width:800px) {
+
+  .navigation {
+      flex-flow:row;
+      justify-content: flex-end;
+  }
+
+  .navigation a {
+      border: none;
+  }
+
+  .navigation a:hover {
+    background: #D3B939;
+  }
 
 					 /*These styles apply to the Flexbox image technique */
 
