@@ -3,6 +3,14 @@
 /*p {
 		color: red;
 }*/
+
+.menu-trigger {
+    order: 1;
+    font-size: 1.75em;
+    width: 2em;
+}
+
+
 .title {
   display: flex;
   justify-content: space-between;
@@ -51,6 +59,8 @@ body {
 }
 
 
+
+
 #pullquote {
   font-size: 1.5em;
 	font-family: 'Merriweather Sans', sans-serif;
@@ -60,7 +70,7 @@ body {
 
 .wrapper {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
 }
 
 
@@ -100,6 +110,9 @@ body {
     background-color: #7a991a;
 }
 
+
+
+
 /*Navigation styles*/
 
 .navigation{
@@ -110,6 +123,7 @@ body {
     display: flex;
 	flex-flow: column;
 }
+
 
 .navigation a {
 	text-decoration: none;
